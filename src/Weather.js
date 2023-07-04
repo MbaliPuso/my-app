@@ -65,8 +65,7 @@ export default function Weather(props) {
             <WeatherForecast coordinates={weather.coordinates} city={weather.city}/>
             <footer>
                 This project was coded by Mbali Puso and is open-sourced on {" "}
-                <a href="https://github.com/MbaliPuso/my-app" target="_blank" rel="noopener noreferrer">GitHub</a>{" "} and hosted on Netlify
-                and is open-sourced on 
+                <a href="https://github.com/MbaliPuso/my-app" target="_blank" rel="noopener noreferrer">GitHub</a>{" "} and hosted on <a href="https://incredible-tartufo-d64346.netlify.app/" target="_blank" rel="noopener noreferrer">Netlify</a> 
             </footer>
         </div>
     );
