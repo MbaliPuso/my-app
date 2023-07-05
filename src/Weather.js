@@ -20,7 +20,7 @@ export default function Weather(props) {
         response.data.weather[0].icon
       }@2x.png`,
       description: response.data.weather[0].description,
-      city: response.data.city,
+      city: response.data.name,
     });
   }
 
