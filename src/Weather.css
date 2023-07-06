@@ -55,6 +55,8 @@
 
 .Weather li {
     font-weight: 500;
+    text-align: left;
+    margin-top: 12px;
     margin-bottom: 5px;
     color: rgba(39, 33, 66, 0.4);
     font-size: 16px;
